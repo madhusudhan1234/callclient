@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.1"
-  }
+  },
+  "repository" : "github:madhusudhan1234/callclient"
 }
