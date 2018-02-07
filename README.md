@@ -1,8 +1,10 @@
 ### In this package I just added the axios header
 - This package is helpful for ajax call
+- It is very useful for the SPA application like laravel and Vue Js
 
 ### How to set up ?
-- set the csrf token in your main file in meta tag 
+- In the main blade file of laravel we can set the csrf token like this way in meta tag
+  
 ```
 ......
 <meta name="csrf-token" content="csrf-token-here">
