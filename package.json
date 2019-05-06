@@ -4,12 +4,15 @@
   "description": "Ajax Call methods using axios",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Madhu Sudhan Subedi <madhusudhansubedi4@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.17.1"
+    "axios": "^0.17.1",
+    "snyk": "^1.161.1"
   },
   "repository": "github:madhusudhan1234/callclient",
   "keywords": [
@@ -17,5 +20,6 @@
     "ajax",
     "axios",
     "httpclient"
-  ]
+  ],
+  "snyk": true
 }
